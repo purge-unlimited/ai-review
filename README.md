@@ -3,6 +3,7 @@
 **English** | [中文](README.zh-CN.md)
 
 [![verify](https://github.com/purge-unlimited/ai-review/actions/workflows/verify.yml/badge.svg)](https://github.com/purge-unlimited/ai-review/actions/workflows/verify.yml)
+[![release](https://img.shields.io/github/v/release/purge-unlimited/ai-review)](https://github.com/purge-unlimited/ai-review/releases)
 [![node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=node.js&logoColor=white)](package.json)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">ai-review-mcp architecture</title>
+  <desc id="desc">A primary agent calls the MCP server over stdio, which routes the review to a second cloud or local model.</desc>
+  <rect width="1100" height="430" rx="28" fill="#0d1117"/>
+  <text x="550" y="55" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">ai-review-mcp</text>
+  <text x="550" y="86" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">A small second-opinion loop for AI coding agents</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <rect x="55" y="150" width="250" height="130" rx="20" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="180" y="190" fill="#f0f6fc" font-size="20" font-weight="600">Primary agent</text>
+    <text x="180" y="222" fill="#8b949e" font-size="15">Codex / Claude / IDE</text>
+    <text x="180" y="247" fill="#8b949e" font-size="15">writes code or plan</text>
+
+    <rect x="405" y="140" width="290" height="150" rx="20" fill="#1f6feb" fill-opacity="0.16" stroke="#58a6ff" stroke-width="2"/>
+    <text x="550" y="180" fill="#f0f6fc" font-size="20" font-weight="600">MCP over stdio</text>
+    <text x="550" y="213" fill="#c9d1d9" font-size="15">ai_reviewers</text>
+    <text x="550" y="238" fill="#c9d1d9" font-size="15">ai_second_opinion</text>
+    <text x="550" y="263" fill="#c9d1d9" font-size="15">ai_review_code</text>
+
+    <rect x="795" y="120" width="250" height="90" rx="20" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="920" y="155" fill="#f0f6fc" font-size="20" font-weight="600">Cloud LLM</text>
+    <text x="920" y="185" fill="#8b949e" font-size="15">OpenAI-compatible API</text>
+
+    <rect x="795" y="235" width="250" height="90" rx="20" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="920" y="270" fill="#f0f6fc" font-size="20" font-weight="600">Local LLM</text>
+    <text x="920" y="300" fill="#8b949e" font-size="15">Ollama / local endpoint</text>
+  </g>
+
+  <g fill="none" stroke="#58a6ff" stroke-width="3" stroke-linecap="round">
+    <path d="M305 215 H395"/>
+    <path d="M695 215 C745 215 745 165 785 165"/>
+    <path d="M695 215 C745 215 745 280 785 280"/>
+  </g>
+  <g fill="#58a6ff">
+    <path d="M390 207 L405 215 L390 223 Z"/>
+    <path d="M780 157 L795 165 L780 173 Z"/>
+    <path d="M780 272 L795 280 L780 288 Z"/>
+  </g>
+
+  <text x="550" y="375" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">No SDK · No build step · No runtime dependencies</text>
+</svg>

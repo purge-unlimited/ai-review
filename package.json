@@ -18,6 +18,8 @@
   "files": [
     "server.js",
     "README.md",
+    "README.zh-CN.md",
+    "docs/architecture.svg",
     "LICENSE"
   ],
   "scripts": {
@@ -30,10 +32,20 @@
   "author": "purge-unlimited",
   "keywords": [
     "mcp",
-    "ai",
-    "code-review",
+    "mcp-server",
     "model-context-protocol",
-    "second-opinion"
+    "ai",
+    "llm",
+    "code-review",
+    "code-review-tool",
+    "ai-agents",
+    "developer-tools",
+    "second-opinion",
+    "nodejs",
+    "openai",
+    "ollama",
+    "deepseek",
+    "codex"
   ],
   "license": "MIT"
 }

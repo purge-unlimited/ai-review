@@ -1,0 +1,39 @@
+{
+  "name": "ai-review-mcp",
+  "version": "1.1.0",
+  "description": "A zero-dependency MCP server that asks a second model for independent code review or a second opinion.",
+  "type": "module",
+  "private": true,
+  "homepage": "https://github.com/purge-unlimited/ai-review#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purge-unlimited/ai-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/purge-unlimited/ai-review/issues"
+  },
+  "bin": {
+    "ai-review-mcp": "./server.js"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "purge-unlimited",
+  "keywords": [
+    "mcp",
+    "ai",
+    "code-review",
+    "model-context-protocol",
+    "second-opinion"
+  ],
+  "license": "MIT"
+}

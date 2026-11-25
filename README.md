@@ -6,6 +6,7 @@
 [![release](https://img.shields.io/github/v/release/purge-unlimited/ai-review)](https://github.com/purge-unlimited/ai-review/releases)
 [![node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=node.js&logoColor=white)](package.json)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Glama MCP](https://img.shields.io/badge/Glama-MCP%20listing-6E56CF)](https://glama.ai/mcp/servers/purge-unlimited/ai-review)
 
 A zero-dependency MCP server that asks a **second LLM** to review code, challenge a plan, or provide an independent opinion.
 

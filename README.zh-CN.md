@@ -6,6 +6,7 @@
 [![release](https://img.shields.io/github/v/release/purge-unlimited/ai-review)](https://github.com/purge-unlimited/ai-review/releases)
 [![node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=node.js&logoColor=white)](package.json)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Glama MCP](https://img.shields.io/badge/Glama-MCP%20listing-6E56CF)](https://glama.ai/mcp/servers/purge-unlimited/ai-review)
 
 一个零依赖 MCP 服务：让主 AI 在干活后调用**第二个模型**做代码审查、挑战方案或给出独立第二意见。
 
